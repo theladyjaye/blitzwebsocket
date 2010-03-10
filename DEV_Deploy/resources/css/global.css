@@ -1,0 +1,108 @@
+body{
+	font-size:11px;
+	color:#282828;
+	font-family:helvetica, verdana, sans-serif;
+	margin:0;
+	padding:0;
+}
+.stream{
+	width:416px;
+	height:385px;
+	padding:15px 0 0 10px;
+	background:#ffffff url("../bitmaps/backgrounds/grass.png") no-repeat top left;
+}
+
+.websocket{
+	position:absolute;
+	left:-5000em;
+}
+
+
+.stream .context{
+	width:312px;
+	height:296px;
+	background:#434343;
+	overflow:hidden;
+}
+
+.stream h2{
+	background:#434343 url("../bitmaps/text/txt-stream.gif") no-repeat top left;
+	width:312px;
+	height:62px;
+	text-indent:-3000em;
+	margin:0;
+	padding:0;
+	padding-bottom:6px;
+}
+
+.stream .context ul{
+	display:block;
+	list-style-type:none;
+	min-height:500px;
+	margin:0;
+	padding:0px 6px 6px 6px;
+	
+}
+
+.stream .context ul li{
+	width:300px;
+	background:url("../bitmaps/backgrounds/background-stream-pod-bottom.gif") no-repeat bottom left;
+	padding-bottom:8px;
+	padding:0 0 8px 0;
+	margin:0 0 1px 0;
+	height:88px;
+}
+
+.stream .context ul li .pod{
+	background:url("../bitmaps/backgrounds/background-stream-pod-top.gif") no-repeat top left;
+	padding-top:8px;
+	position:relative;
+}
+
+.stream .context ul li .pod .pod-context{
+	background:#deecff;
+	min-height:20px;
+	padding:0 8px;
+}
+
+.stream .context ul li .pod .pod-context .pod-avatar{
+	width:80px;
+	height:80px;
+	background:#fff;
+	position:absolute;
+}
+
+.stream .context ul li .pod .pod-context .pod-message{
+	margin-left:81px;
+	background:#fff;
+}
+
+.stream .context ul li .pod .pod-context .pod-message .pod-message-context{
+	margin-left:8px;
+	padding:6px 8px 0 0;
+	height:74px
+}
+
+.stream .context ul li .pod .pod-context .pod-message .pod-message-context h3{
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	font-size:11px;
+	font-weight:bold;
+}
+
+.stream .context ul li .pod .pod-context .pod-message .pod-message-context h4{
+	margin:0 0 4px 0;
+	padding:0 0 4px 0;
+	font-style:italic;
+	font-size:9px;
+	font-weight:normal;
+	border-bottom:1px solid #dcdcdc;
+}
+
+.stream .context ul li .pod .pod-context .pod-message .pod-message-context p{
+	margin:0;
+	padding:0;
+	font-size:10px;
+	min-height:42px;
+	overflow:hidden;
+}
